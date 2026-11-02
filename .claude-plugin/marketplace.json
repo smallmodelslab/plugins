@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "smallmodelslab",
+  "description": "smallmodelslab's plugins for coding agents.",
+  "owner": {
+    "name": "smallmodelslab",
+    "url": "https://smallmodelslab.ai"
+  },
+  "plugins": [
+    {
+      "name": "crossroads",
+      "source": "./crossroads",
+      "description": "Ask Crossroads the same typed questions about many files or lines at once.",
+      "category": "productivity"
+    }
+  ]
+}
