@@ -1,7 +1,7 @@
 {
-  "name": "crossroads",
+  "name": "crossroad",
   "version": "0.1.0",
-  "description": "Ask Crossroads the same typed questions about many files or lines at once.",
+  "description": "Ask Crossroad the same typed questions about many files or lines at once.",
   "author": { "name": "smallmodelslab", "url": "https://smallmodelslab.ai" },
   "homepage": "https://smallmodelslab.ai"
 }

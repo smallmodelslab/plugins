@@ -8,9 +8,9 @@
   },
   "plugins": [
     {
-      "name": "crossroads",
-      "source": "./crossroads",
-      "description": "Ask Crossroads the same typed questions about many files or lines at once.",
+      "name": "crossroad",
+      "source": "./crossroad",
+      "description": "Ask Crossroad the same typed questions about many files or lines at once.",
       "category": "productivity"
     }
   ]

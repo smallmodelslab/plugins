@@ -1,21 +1,21 @@
 {
-  "name": "crossroads",
+  "name": "crossroad",
   "version": "0.1.0",
-  "description": "Ask Crossroads the same typed questions about many files or lines at once.",
+  "description": "Ask Crossroad the same typed questions about many files or lines at once.",
   "author": { "name": "smallmodelslab", "url": "https://smallmodelslab.ai" },
   "homepage": "https://smallmodelslab.ai",
   "skills": "./skills/",
   "interface": {
-    "displayName": "Crossroads",
+    "displayName": "Crossroad",
     "shortDescription": "Typed answers about many inputs",
-    "longDescription": "Classify, label, score or check many files or lines with one set of questions. Crossroads answers each with values code can use: one option from a list, a boolean, a probability or a number on a scale.",
+    "longDescription": "Classify, label, score or check many files or lines with one set of questions. Crossroad answers each with values code can use: one option from a list, a boolean, a probability or a number on a scale.",
     "developerName": "smallmodelslab",
     "category": "Productivity",
     "capabilities": ["Read"],
     "websiteURL": "https://smallmodelslab.ai",
     "privacyPolicyURL": "https://smallmodelslab.ai/privacy",
     "termsOfServiceURL": "https://smallmodelslab.ai/terms",
-    "defaultPrompt": ["Sort these support tickets by team and urgency with Crossroads"],
+    "defaultPrompt": ["Sort these support tickets by team and urgency with Crossroad"],
     "composerIcon": "./assets/smallmodelslab.svg",
     "logo": "./assets/smallmodelslab.svg"
   }
