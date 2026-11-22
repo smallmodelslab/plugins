@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "neokki": {
+      "type": "http",
+      "url": "https://neokki.app/mcp"
+    }
+  }
+}

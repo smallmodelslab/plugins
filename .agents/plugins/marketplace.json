@@ -7,6 +7,12 @@
       "source": { "source": "local", "path": "./crossroad" },
       "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
       "category": "Productivity"
+    },
+    {
+      "name": "neokki",
+      "source": { "source": "local", "path": "./neokki" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Productivity"
     }
   ]
 }

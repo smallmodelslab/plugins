@@ -1,0 +1,12 @@
+{
+  "name": "neokki",
+  "version": "0.1.0",
+  "description": "Write, check and study your Neokki flashcard decks from a JavaScript REPL.",
+  "author": {
+    "name": "Neokki",
+    "url": "https://neokki.app"
+  },
+  "homepage": "https://neokki.app",
+  "icon": "./assets/icon.png",
+  "privacyPolicyUrl": "https://neokki.app/privacy"
+}
