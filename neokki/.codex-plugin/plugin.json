@@ -1,0 +1,25 @@
+{
+  "name": "neokki",
+  "version": "0.1.0",
+  "description": "Write, check and study your Neokki flashcard decks from a JavaScript REPL.",
+  "author": { "name": "Neokki", "url": "https://neokki.app" },
+  "homepage": "https://neokki.app",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Neokki",
+    "shortDescription": "Flashcards you write as text",
+    "longDescription": "Neokki keeps your flashcards as text: a deck is a .neodeck file, and cards are HTML that can run JavaScript. This plugin signs in to your Neokki account and gives the agent a JavaScript REPL over your decks, to write and check them, edit them in bulk, and study with you card by card while Neokki schedules each one.",
+    "developerName": "Neokki",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://neokki.app",
+    "privacyPolicyURL": "https://neokki.app/privacy",
+    "termsOfServiceURL": "https://neokki.app/terms",
+    "defaultPrompt": [
+      "Make me a Neokki deck of the 20 most common Spanish verbs",
+      "Quiz me on my Capitals deck in Neokki"
+    ],
+    "composerIcon": "./assets/neokki.svg",
+    "logo": "./assets/neokki.svg"
+  }
+}

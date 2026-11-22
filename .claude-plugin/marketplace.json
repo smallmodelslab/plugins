@@ -12,6 +12,12 @@
       "source": "./crossroad",
       "description": "Ask Crossroad the same typed questions about many files or lines at once.",
       "category": "productivity"
+    },
+    {
+      "name": "neokki",
+      "source": "./neokki",
+      "description": "Write, check and study your Neokki flashcard decks from a JavaScript REPL.",
+      "category": "productivity"
     }
   ]
 }
