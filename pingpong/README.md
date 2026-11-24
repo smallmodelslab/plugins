@@ -48,6 +48,6 @@ codex plugin marketplace add smallmodelslab/plugins
 codex plugin add pingpong@smallmodelslab
 ```
 
-Only chats started after that have the tools. The skill's
+Start a new chat to get the tools. The skill's
 [SAFETY.md](skills/pingpong/SAFETY.md) says who can reach your agents and what
 a ping can do.

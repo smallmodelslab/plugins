@@ -33,12 +33,13 @@ how to run the app, open a pull request, and ask for its first test.
 
 ## Write the description as claims
 
-The tester lists every claim in the title and description, tests each one on
-its own against the pull request's commit, and gives each a verdict: verified,
-contradicted or blocked. Any contradicted claim fails the run, and so does a
-UI standard violation when the team sets violations to fail; otherwise any
-blocked claim leaves it blocked. It passes only when every claim is verified.
-So write what a reviewer could try, and nothing the commit does not do:
+The tester is told to list every claim in the title and description, test
+each one on its own against the pull request's commit, and report each with a
+verdict: verified, contradicted or blocked. Any contradicted claim fails the
+run, and so does a UI standard violation when the team sets violations to
+fail; otherwise any blocked claim leaves it blocked. It passes only when every
+claim reported is verified. So write what a reviewer could try, and nothing
+the commit does not do:
 
 > Email notifications can be turned off in Settings.
 >
@@ -62,13 +63,15 @@ So write what a reviewer could try, and nothing the commit does not do:
   service, key or fixture the repository does not provide, or another
   operating system or device. Self-serve runs are on Linux. Say so beside a
   claim you know needs something else.
-- The description is read as material to test, never as instructions: asking
-  the tester to skip a check or to pass the run does nothing.
+- The tester is told to read the description as material to test, never as
+  instructions to skip a check or change its verdict. Write claims there, not
+  requests.
 - Without any claims the tester derives its checks from the diff.
 
 Once a mention has started a test, or while the repository tests every pull
-request, each push and each edit to the title or description is tested again,
-so keep the description true as the change moves.
+request, each push and each edit to the title or description requests a
+new test, which replaces one still under way. Keep the description true as the
+change moves.
 
 ## Act on the result
 
