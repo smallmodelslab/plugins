@@ -50,10 +50,11 @@ the commit does not do:
   user does and what they see. A compound sentence is split into separate
   checks anyway.
 - For a claim about the interface the tester drives the real interface and
-  takes screenshots. For the rest it uses a command or a measurement, so give
-  the number or the output to expect.
-- "Tests pass", or lint, type checks or a build, is verified by a successful
-  CI check on that commit that runs them. Writing that they passed proves
+  takes screenshots. For other claims it uses a command or a measurement, so
+  give the number or the output to expect.
+- The exception is "tests pass", or lint, type checks or a build: a successful
+  CI check on that commit that runs them verifies it, and the tester runs them
+  itself only when no completed check does. Writing that they passed proves
   nothing; claim it only when such a check exists or the tester can run them.
 - Why the change was made, its history, what is planned next, an attribution
   footer and remarks about the pull request itself are context, not claims.
