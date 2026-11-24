@@ -52,10 +52,11 @@ the commit does not do:
 - For a claim about the interface the tester drives the real interface and
   takes screenshots. For other claims it uses a command or a measurement, so
   give the number or the output to expect.
-- The exception is "tests pass", or lint, type checks or a build: a successful
-  CI check on that commit that runs them verifies it, and the tester runs them
-  itself only when no completed check does. Writing that they passed proves
-  nothing; claim it only when such a check exists or the tester can run them.
+- The exception is "tests pass", or lint, type checks or a build: the tester
+  is told to cite a successful CI check on that commit that runs them, and to
+  run them itself only when no completed check covers the claim. Writing that
+  they passed proves nothing; claim it only when such a check exists or the
+  tester can run them.
 - Why the change was made, its history, what is planned next, an attribution
   footer and remarks about the pull request itself are context, not claims.
   Keep them apart from the claims, and leave out anything you would not want
