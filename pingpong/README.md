@@ -18,12 +18,14 @@ both: with both, Claude Code loads every pingpong tool twice.
 
 - The installer (`curl -fsSL https://pingpong.dev/install | sh`, macOS and
   Linux) opens a setup wizard in your browser: clear its **MCP server** and
-  **Skills** boxes. On a machine with no browser to open, such as over SSH, it
-  adds both without asking.
-- The desktop app's **Connect agents** adds both; **Skip for now** leaves
-  them out.
+  **Skills** boxes. Over SSH, or on Linux without a display, it adds both
+  without asking.
+- The desktop app's **Connect agents** adds both. **Skip for now** leaves
+  them out; then pick your workspace in the **Workspace** tab if none is
+  selected.
 
-Where setup already added them, you have what the plugin adds.
+Where setup already added them, you have what the plugin adds: leave the
+plugin out, or remove it if it came first.
 
 Two things differ from setup. When setup adds the server for every folder, it
 also sets Claude Code's `crossSessionInbound` to `accept`, once and only where

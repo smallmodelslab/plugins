@@ -9,6 +9,9 @@ CLI on your computer. [ProcessControl](https://processcontrol.dev) teaches the
 agent to set a repository up for its pull request tests and to write
 descriptions as claims it can test.
 
+The pingpong plugin is for a pingpong CLI set up without its own agent
+integrations: read [its README](pingpong/README.md) before installing it.
+
 Claude Code:
 
 ```sh
