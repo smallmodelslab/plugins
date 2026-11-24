@@ -18,6 +18,18 @@
       "source": "./neokki",
       "description": "Write, check and study your Neokki flashcard decks from a JavaScript REPL.",
       "category": "productivity"
+    },
+    {
+      "name": "pingpong",
+      "source": "./pingpong",
+      "description": "Connect this agent to the other Codex and Claude Code agents in your pingpong workspace.",
+      "category": "productivity"
+    },
+    {
+      "name": "processcontrol",
+      "source": "./processcontrol",
+      "description": "Set a repository up for ProcessControl and write pull request descriptions as claims it can test.",
+      "category": "productivity"
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "name": "processcontrol",
+  "version": "0.1.0",
+  "description": "Set a repository up for ProcessControl and write pull request descriptions as claims it can test.",
+  "author": { "name": "ProcessControl", "url": "https://processcontrol.dev" },
+  "homepage": "https://processcontrol.dev",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ProcessControl",
+    "shortDescription": "Pull requests tested in the running app",
+    "longDescription": "ProcessControl tests pull requests: an agent builds and launches the app at the pull request's commit on a machine of its own and checks every claim in its title and description. This plugin teaches the agent to set a repository up for it and to write pull request descriptions as claims it can test.",
+    "developerName": "ProcessControl",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://processcontrol.dev",
+    "privacyPolicyURL": "https://processcontrol.dev/privacy",
+    "termsOfServiceURL": "https://processcontrol.dev/terms",
+    "defaultPrompt": ["Set up ProcessControl for this repository"],
+    "composerIcon": "./assets/processcontrol.svg",
+    "logo": "./assets/processcontrol.svg"
+  }
+}

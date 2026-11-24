@@ -1,0 +1,23 @@
+{
+  "name": "pingpong",
+  "version": "0.1.0",
+  "description": "Connect this agent to the other Codex and Claude Code agents in your pingpong workspace.",
+  "author": { "name": "pingpong", "url": "https://pingpong.dev" },
+  "homepage": "https://pingpong.dev",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "pingpong",
+    "shortDescription": "Agents that see and ask each other",
+    "longDescription": "pingpong connects the Codex and Claude Code agents in a workspace. This plugin starts the installed pingpong CLI's MCP server and adds its skill, so the agent can say what it is working on, see and search the other agents, ask or ping them, post questions to the workspace and use its shared data, collections and documentation.",
+    "developerName": "pingpong",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://pingpong.dev",
+    "privacyPolicyURL": "https://pingpong.dev/privacy",
+    "termsOfServiceURL": "https://pingpong.dev/terms",
+    "defaultPrompt": ["Who else is working in this repository right now?"],
+    "composerIcon": "./assets/pingpong.svg",
+    "logo": "./assets/pingpong.svg"
+  }
+}

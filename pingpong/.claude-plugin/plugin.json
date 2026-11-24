@@ -1,0 +1,7 @@
+{
+  "name": "pingpong",
+  "version": "0.1.0",
+  "description": "Connect this agent to the other Codex and Claude Code agents in your pingpong workspace.",
+  "author": { "name": "pingpong", "url": "https://pingpong.dev" },
+  "homepage": "https://pingpong.dev"
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "pingpong": {
+      "type": "stdio",
+      "command": "pingpong",
+      "args": ["mcp"]
+    }
+  }
+}

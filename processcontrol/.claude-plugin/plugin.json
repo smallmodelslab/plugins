@@ -1,0 +1,7 @@
+{
+  "name": "processcontrol",
+  "version": "0.1.0",
+  "description": "Set a repository up for ProcessControl and write pull request descriptions as claims it can test.",
+  "author": { "name": "ProcessControl", "url": "https://processcontrol.dev" },
+  "homepage": "https://processcontrol.dev"
+}

@@ -13,6 +13,18 @@
       "source": { "source": "local", "path": "./neokki" },
       "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
       "category": "Productivity"
+    },
+    {
+      "name": "pingpong",
+      "source": { "source": "local", "path": "./pingpong" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Productivity"
+    },
+    {
+      "name": "processcontrol",
+      "source": { "source": "local", "path": "./processcontrol" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Productivity"
     }
   ]
 }
