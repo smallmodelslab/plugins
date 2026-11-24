@@ -66,8 +66,9 @@ So write what a reviewer could try, and nothing the commit does not do:
   the tester to skip a check or to pass the run does nothing.
 - Without any claims the tester derives its checks from the diff.
 
-After the first test, every push and every edit to the title or description is
-tested again, so keep the description true as the change moves.
+Once a mention has started a test, or while the repository tests every pull
+request, each push and each edit to the title or description is tested again,
+so keep the description true as the change moves.
 
 ## Act on the result
 

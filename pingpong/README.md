@@ -20,9 +20,9 @@ both: with both, Claude Code loads every pingpong tool twice.
   Linux) opens a setup wizard in your browser: clear its **MCP server** and
   **Skills** boxes. Over SSH, or on Linux without a display, it adds both
   without asking.
-- The desktop app's **Connect agents** adds both. **Skip for now** leaves
-  them out; then pick your workspace in the **Workspace** tab if none is
-  selected.
+- The desktop app's **Connect agents** adds both by default. **Skip for now**
+  leaves them out; then pick your workspace in the **Workspace** tab if none
+  is selected.
 
 Where setup already added them, you have what the plugin adds: leave the
 plugin out, or remove it if it came first.
