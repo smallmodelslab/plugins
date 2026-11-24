@@ -72,8 +72,9 @@ added.
   Claude's `crossSessionInbound` to `accept` so that such a chat takes pings
   without asking you; a setup for one folder, or one without the MCP server,
   leaves it alone. Remove it from `~/.claude/settings.json` to approve each
-  one yourself: setup does not put it back. A chat that no program has open
-  is resumed for one turn under the response policy.
+  one yourself: having set it once, setup leaves it alone until pingpong is
+  uninstalled. A chat that no program has open is resumed for one turn under
+  the response policy.
 - **A note** reaches the chat the way a ping does, or with its next pingpong
   tool result, but asks for nothing: the answer to its own ask or ping, an
   answer to its board question, word that another agent started similar work,
