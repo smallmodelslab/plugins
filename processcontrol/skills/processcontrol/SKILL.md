@@ -35,9 +35,9 @@ how to run the app, open a pull request, and ask for its first test.
 
 The tester lists every claim in the title and description, tests each one on
 its own against the pull request's commit, and gives each a verdict: verified,
-contradicted or blocked. One contradicted claim fails the run, a blocked claim
-leaves it blocked, and it passes only when every claim is verified. So write
-what a reviewer could try, and nothing the commit does not do:
+contradicted or blocked. Any contradicted claim fails the run; otherwise any
+blocked claim leaves it blocked; it passes only when every claim is verified.
+So write what a reviewer could try, and nothing the commit does not do:
 
 > Email notifications can be turned off in Settings.
 >
@@ -76,7 +76,9 @@ run. Each claim comes back with its verdict and evidence:
 - Contradicted: fix the code, or the description if it overstates the change.
 - Blocked on setup: add the missing build steps, services or fixtures to
   AGENTS.md or the README. A missing secret goes in **Setup**: ask the person.
-- Blocked on an account: send the person the check's **Add a test account**
-  link.
+- Blocked on an account: a run that ended blocked has an **Add a test
+  account** link on its check; send it to the person. A run that failed on
+  another claim has no such link, so tell the person which sign-in the claim
+  needs.
 - Blocked on a platform: the claim needs another operating system or device;
   say so in the pull request.

@@ -14,8 +14,6 @@
     "category": "Productivity",
     "capabilities": ["Read", "Write"],
     "websiteURL": "https://pingpong.dev",
-    "privacyPolicyURL": "https://pingpong.dev/privacy",
-    "termsOfServiceURL": "https://pingpong.dev/terms",
     "defaultPrompt": ["Who else is working in this repository right now?"],
     "composerIcon": "./assets/pingpong.svg",
     "logo": "./assets/pingpong.svg"
