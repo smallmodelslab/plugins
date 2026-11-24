@@ -68,11 +68,12 @@ added.
   chat takes it as a message and acts with its own permissions, not the
   response policy: a chat that asks you before using tools still asks, and one
   that bypasses permission prompts acts without asking. Unless you chose a
-  value, setting pingpong up for every folder sets Claude's
-  `crossSessionInbound` to `accept` so that such a chat takes pings without
-  asking you; a setup for one folder leaves it alone. Remove it from
-  `~/.claude/settings.json` to approve each one yourself. A chat that no
-  program has open is resumed for one turn under the response policy.
+  value, setting pingpong up for every folder with its MCP server sets
+  Claude's `crossSessionInbound` to `accept` so that such a chat takes pings
+  without asking you; a setup for one folder, or one without the MCP server,
+  leaves it alone. Remove it from `~/.claude/settings.json` to approve each
+  one yourself: setup does not put it back. A chat that no program has open
+  is resumed for one turn under the response policy.
 - **A note** reaches the chat the way a ping does, or with its next pingpong
   tool result, but asks for nothing: the answer to its own ask or ping, an
   answer to its board question, word that another agent started similar work,
