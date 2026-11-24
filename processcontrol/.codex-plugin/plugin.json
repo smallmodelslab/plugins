@@ -8,7 +8,7 @@
   "interface": {
     "displayName": "ProcessControl",
     "shortDescription": "Pull requests tested in the running app",
-    "longDescription": "ProcessControl tests pull requests: an agent builds and launches the app at the pull request's commit on a machine of its own and checks every claim in its title and description. This plugin teaches the agent to set a repository up for it and to write pull request descriptions as claims it can test.",
+    "longDescription": "ProcessControl tests pull requests: an agent builds and launches the app at the pull request's commit on a machine of its own and tests the claims in its title and description. This plugin teaches the agent to set a repository up for it and to write pull request descriptions as claims it can test.",
     "developerName": "ProcessControl",
     "category": "Productivity",
     "capabilities": ["Read", "Write"],

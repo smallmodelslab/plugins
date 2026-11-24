@@ -8,7 +8,7 @@ an agent pingpong's MCP server and its skill.
 It needs the `pingpong` CLI on the agent's PATH. The plugin starts the server
 with `pingpong mcp`, which reaches your workspace through pingpong's daemon on
 your computer, so no token or address is configured. Until you are signed in
-and have picked a workspace, the server offers no tools and says why. Without
+and a workspace is selected, the server offers no tools and says why. Without
 the CLI the server does not start, and the skill has the agent tell you how to
 install it.
 

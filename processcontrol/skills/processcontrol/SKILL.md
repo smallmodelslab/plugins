@@ -6,7 +6,7 @@ description: Set a repository up for ProcessControl, which tests pull requests b
 # ProcessControl
 
 ProcessControl tests pull requests. For each one it tests, an agent builds and
-launches the app at that commit on a machine of its own, checks every claim in
+launches the app at that commit on a machine of its own, tests the claims in
 the pull request's title and description, and reports a GitHub check that
 links to the run's evidence.
 
@@ -76,7 +76,7 @@ change moves.
 ## Act on the result
 
 The same page says how to wait for the **ProcessControl** check and read the
-run. Each claim comes back with its verdict and evidence:
+run. Each claim it reports has a verdict and evidence:
 
 - Contradicted: fix the code, or the description if it overstates the change.
 - Blocked on setup: add the missing build steps, services or fixtures to
